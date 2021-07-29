@@ -1,0 +1,86 @@
+body {
+  background-image: url("./img/fon.jpg");
+  padding-top: 50px;
+}
+.userContainer {
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
+}
+.userHeader {
+  width: 100%;
+  height: 250px;
+}
+.userHeader > img {
+  width: 100%;
+  height: 100%;
+}
+.userLogo {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+  position: absolute;
+  top: 13%;
+  left: 26%;
+}
+.userBorder > img {
+  width: 100%;
+  height: 100%;
+}
+.userBorder {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.userInfo {
+  text-align: center;
+  padding-top: 165px;
+  background: linear-gradient(0deg, rgba(63,57,157,1) 0%, rgba(185,66,45,1) 47%, rgba(244,230,97,1) 100%);
+  height: 450px;
+}
+.userTitle {
+  font-family: 'Teko', sans-serif;
+  margin-bottom: 0;
+}
+.userInst {
+  text-decoration: none;
+  color:black;
+  font-size: 22px;
+}
+.userText {
+  font-family: 'Teko', sans-serif;
+  font-size: large;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+  color: white;
+}
+.userSocials {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+
+}
+.userIcon1 {
+  width: 90px;
+  height: 65px;
+  position: absolute;
+  top: -53px;
+  left: 167px;
+}
+.userIcon2 {
+  width: 40px;
+  height: 43px;
+  position: absolute;
+  top: -43px;
+  left: 376px;
+}
